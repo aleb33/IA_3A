@@ -23,9 +23,10 @@ make;./knights -opt
 Sur un plateau de 9 cases, il faut replacer, en les glissant, 8 cases dans le bon ordre avec le moins de mouvements possibles.
  Le bon ordre ici est:
 	
-		      123
-		      456
-		      780	
+| 1 | 2 | 3 |
+|---|---|---|
+| 4 | 5 | 6 |
+| 7 | 8 | 0 |	
 	
 Où 0 indique la case vide.
 
