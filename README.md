@@ -33,7 +33,6 @@ Sur un plateau de 9 cases, il faut replacer, en les glissant, 8 cases dans le bo
 | 4 | 5 | 6 |
 | 7 | 8 |   |	
 	
-Où 0 indique la case vide.
 
 ### Trois niveaux différents :
 #### EASY :
