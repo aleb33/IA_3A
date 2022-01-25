@@ -50,7 +50,7 @@ Où 0 indique la case vide.
 | 2 | 5 | 6 |
 | 3 | 1 |   | 
 
-#### Difficult :
+#### DIFFICULT :
 
 | 8 |   | 7 |
 |---|---|---|
