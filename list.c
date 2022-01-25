@@ -155,21 +155,17 @@ void addLast(list_t *list, Item *node)  // add in tail
   list->numElements++;
 }
 
+void cleanupList(list_t *list) {
+  Item *p = list->first;
+  Item *tmp = p;
 
-void cleanupList(list_t *list)
-{
-    Item *p = list->first;
-    Item *tmp=p;
+  while (p != NULL) {
+    p = p->next;
+    freeItem(tmp);
+    tmp = p;
+  }
 
-    while (p != NULL)
-    {
-        
-        p = p->next;
-        freeItem(tmp);
-        tmp=p;
-    }
-    
-    initList(list);
+  initList(list);
 }
 
 void printList(list_t list) {
