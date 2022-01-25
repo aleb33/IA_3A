@@ -1,24 +1,24 @@
-# Projet IA 2022
+# Projet IA 2022 👾
 
-## Nqueens :
+## Nqueens ♟ :
 Le problème des Nqueens consiste à positionner les N reines sur un échiquier NxN sans qu’aucune ne s’attaquent.
 
 Pour lancer notre jeu il suffit de faire la commande suivante:
 
-make;./nqueens <opt> 
+make;./nqueens -opt 
 	
-<opt> peut prendre trois valeurs : -b pour bfs; -d pour dfs; -u pour ucs;
+-opt peut prendre trois valeurs : -b pour bfs; -d pour dfs; -u pour ucs;
 
-## Knights:
+## Knights ♟:
 Pour résoudre ce problème, on veut chercher le plus court chemin reliant le cavalier en position (0,0) pour aller en position (N-1,N-1) sur un échiquier de taille NxN.
 
 Pour lancer notre jeu il suffit de faire la commande suivante:
 	
-make;./knights <opt> 
+make;./knights -opt
 	
-<opt> peut prendre trois valeurs : -b pour bfs; -d pour dfs; -u pour ucs;
+-opt peut prendre trois valeurs : -b pour bfs; -d pour dfs; -u pour ucs;
 
-## Taquin:
+## Taquin 🧩:
 
 Sur un plateau de 9 cases, il faut replacer, en les glissant, 8 cases dans le bon ordre avec le moins de mouvements possibles.
  Le bon ordre ici est:
@@ -45,7 +45,7 @@ Où 0 indique la case vide.
 
 Pour lancer notre jeu il suffit de faire la commande suivante:
 	
-make;./taquin <opt> 
+make;./taquin -opt 
 	
-<opt> peut prendre quatre valeurs : -b pour bfs; -d pour dfs; -u pour ucs ; -a pour astar;
+-opt peut prendre quatre valeurs : -b pour bfs; -d pour dfs; -u pour ucs ; -a pour astar;
 
